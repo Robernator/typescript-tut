@@ -10,3 +10,10 @@ document.getElementById('add')!.addEventListener( "click", () => {
     result.innerHTML = ''+add(+inp1.value, +inp2.value);
 });
 
+class Calculator {
+    
+    public add(num1: number, num2: number): number {
+        return num1 + num2;
+    }
+
+}
