@@ -6,6 +6,8 @@ function add(num1, num2) {
     return num1 + num2;
 }
 
-document.getElementById('add').addEventListener( "click", function() {
+document.getElementById('add').addEventListener( "click", () => {
     result.innerHTML = add(inp1.value, inp2.value);
 });
+
+// runtime 
