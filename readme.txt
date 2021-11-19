@@ -47,5 +47,10 @@ tsc app
 Generating tsconfig.json file
 tsc --init
 
+ "lib": [
+      "DOM",
+      "ES2015"
+    ],    
+
 
 
