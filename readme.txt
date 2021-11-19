@@ -52,5 +52,8 @@ tsc --init
       "ES2015"
     ],    
 
+// "sourceMap": true, 
+
+For compiling
 
 
